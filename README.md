@@ -13,8 +13,11 @@ The platform addresses issues like balance fetching errors and missing dependenc
 
 ### Prerequisites
 Node.js (v16 or higher)
+
 pnpm (v8 or higher)
+
 IOTA testnet wallet with funded tokens
+
 Git
 
 ### Setup Instructions if you want to run the application
@@ -28,7 +31,7 @@ cd IOTA-MOVEATHON-2025
 If you haven't already set up the project, initialize it using the IOTA dApp template:
 ```bash
 pnpm create @iota/create-dapp
-cd iota-tipping-platform
+cd tipping-platform
 pnpm i
 ```
 5. Install Dependencies
